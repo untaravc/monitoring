@@ -45,6 +45,35 @@ go run main.go
 air serve
 ```
 
+## Data Sample Structure
+- Request 
+  ```
+  Request struct {
+    Name string name
+    PhoneNumber string phone_number
+    Password string password
+  }
+  ```
+- Response
+  ```
+  Response struct {
+    Name string name
+    Status boolean status
+    StatusLabel string status_label
+  }
+  ```
+- Domain
+  ```
+  Domain struct {
+    Name string name
+    PhoneNumber string phone_number
+    Password string password
+    Status boolean status
+    CreatedAt Date created_at
+    UpdatedAt Date updated_at
+  }
+  ```
+
 ## Features
 
 - Gorm config mysql, posgres
