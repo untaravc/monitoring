@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 	"log"
-	"monitoringapp/app/configs/db_config"
+	"monitoring/app/configs/db_config"
 	"os"
 	"path/filepath"
 	"sort"

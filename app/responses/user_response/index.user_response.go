@@ -1,6 +1,6 @@
 package user_response
 
-import "monitoringapp/app/repository/user_repository"
+import "monitoring/app/repository/user_repository"
 
 type AuthResponse struct {
 	Token string `json:"token"`

@@ -62,7 +62,8 @@ air serve
     StatusLabel string status_label
   }
   ```
-- Domain
+  
+- Domain (DB Structured)
   ```
   Domain struct {
     Name string name

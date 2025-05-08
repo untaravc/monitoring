@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	"monitoringapp/app/configs/aws_config"
+	"monitoring/app/configs/aws_config"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/feature/s3/manager"

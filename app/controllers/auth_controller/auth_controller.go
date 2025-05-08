@@ -2,12 +2,12 @@ package auth_controller
 
 import (
 	"database/sql"
-	"monitoringapp/app/repository/user_repository"
-	"monitoringapp/app/requests/auth_request"
-	"monitoringapp/app/responses/user_response"
-	"monitoringapp/app/utils/common"
-	"monitoringapp/app/utils/jwt"
-	"monitoringapp/app/utils/validator"
+	"monitoring/app/repository/user_repository"
+	"monitoring/app/requests/auth_request"
+	"monitoring/app/responses/user_response"
+	"monitoring/app/utils/common"
+	"monitoring/app/utils/jwt"
+	"monitoring/app/utils/validator"
 	"net/http"
 	"strconv"
 

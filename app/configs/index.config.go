@@ -1,9 +1,9 @@
 package configs
 
 import (
-	"monitoringapp/app/configs/app_config"
-	"monitoringapp/app/configs/aws_config"
-	"monitoringapp/app/configs/db_config"
+	"monitoring/app/configs/app_config"
+	"monitoring/app/configs/aws_config"
+	"monitoring/app/configs/db_config"
 )
 
 func InitConfig() {

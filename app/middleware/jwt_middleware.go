@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"monitoringapp/app/utils/jwt"
+	"monitoring/app/utils/jwt"
 	"net/http"
 	"strings"
 
