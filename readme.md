@@ -45,6 +45,16 @@ go run main.go
 air serve
 ```
 
+7. Build Linux arm
+
+```
+GOOS=linux GOARCH=amd64 go build -o main_amd
+```
+8. Use Light weight dev serve
+```
+CompileDaemon -command="./monitoring.exe"
+```
+
 ## Data Sample Structure
 - Request 
   ```

@@ -2,7 +2,7 @@ package auth_controller
 
 import (
 	"database/sql"
-	"monitoring/app/repository/user_repository"
+	"monitoring/app/repository/mysql/user_repository"
 	"monitoring/app/requests/auth_request"
 	"monitoring/app/responses/user_response"
 	"monitoring/app/utils/common"

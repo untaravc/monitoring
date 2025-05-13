@@ -3,6 +3,7 @@ package bootstrap
 import (
 	// "context"
 	"log"
+	"monitoring/app/configs"
 	"monitoring/app/configs/app_config"
 	"monitoring/app/routes"
 	"monitoring/app/utils/database"
@@ -19,7 +20,7 @@ func BootstrapApp() {
 		log.Println("Error loading .env file")
 	}
 
-	// configs.InitConfig()
+	configs.InitConfig()
 
 	if len(os.Args) > 1 {
 		switch os.Args[1] {
