@@ -63,7 +63,7 @@ func RunMigrationPostgres() {
 	// Path to migrations folder
 	migrationsPath := "./app/migrations"
 
-	// // Fetch migration files
+	// Fetch migration files
 	files, err := os.ReadDir(migrationsPath)
 	if err != nil {
 		log.Fatalf("Error reading migrations directory: %v", err)
